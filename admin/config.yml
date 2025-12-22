@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: melon1nz-hash/hibiscus-electrical-site
   branch: main
 
 media_folder: "images"
