@@ -1,0 +1,46 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+  - name: "pages"
+    label: "Pages"
+    files:
+      - label: "Home Page"
+        name: "home"
+        file: "index.html"
+        fields:
+          - {label: "Page Title", name: "title", widget: "string"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {label: "Headline", name: "headline", widget: "string"}
+              - {label: "Subheadline", name: "subheadline", widget: "text"}
+              - {label: "Button Text", name: "button_text", widget: "string"}
+              - {label: "Hero Image", name: "image", widget: "image"}
+          - label: "About Section"
+            name: "about"
+            widget: "object"
+            fields:
+              - {label: "Heading", name: "heading", widget: "string"}
+              - {label: "Content", name: "content", widget: "markdown"}
+              - {label: "Image", name: "image", widget: "image", required: false}
+          - label: "Services/Features"
+            name: "services"
+            widget: "list"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Description", name: "description", widget: "text"}
+              - {label: "Icon/Image", name: "image", widget: "image", required: false}
+          - label: "Contact Section"
+            name: "contact"
+            widget: "object"
+            fields:
+              - {label: "Heading", name: "heading", widget: "string"}
+              - {label: "Email", name: "email", widget: "string"}
+              - {label: "Phone", name: "phone", widget: "string", required: false}
+              - {label: "Address", name: "address", widget: "text", required: false}
