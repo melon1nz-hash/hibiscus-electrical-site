@@ -2,5 +2,14 @@
   "hero": {
     "subheadline": "Totally unprofessional, licensed electricians serving residential and commercial clients from Whangaparaoa to Orewa. Safety first, quality guaranteed.",
     "button_text": "Get a Free Quote"
-  }
+  },
+  "services": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ]
 }
