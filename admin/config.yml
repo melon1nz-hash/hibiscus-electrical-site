@@ -15,16 +15,18 @@ collections:
         name: "landing"
         file: "content.json"
         fields:
-          - label: "Hero Section"
+         - label: "Hero Section"
             name: "hero"
             widget: "object"
             collapsed: true
             fields:
               - {label: "Headline", name: "headline", widget: "string", required: false}
               - {label: "Subheadline", name: "subheadline", widget: "text", required: false}
-              - {label: "Button Text", name: "button_text", widget: "string", required: false}
-              - {label: "Button Link", name: "button_link", widget: "string", required: false}
-              - {label: "Background Image", name: "image", widget: "image", required: false}
+              - {label: "Primary Button Text", name: "button_text", widget: "string", required: false}
+              - {label: "Primary Button Link", name: "button_link", widget: "string", required: false}
+              - {label: "Secondary Button Text", name: "button_text_secondary", widget: "string", required: false}
+              - {label: "Secondary Button Link", name: "button_link_secondary", widget: "string", required: false}
+              - {label: "Background Image", name: "image", widget: "image", required: false} 
           
           - label: "Services"
             name: "services"

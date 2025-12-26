@@ -114,6 +114,19 @@ async function loadCMSContent() {
         const primaryBtn = heroSection.querySelector('.btn-primary');
         primaryBtn.textContent = hero.button_text;
       }
+      if (hero.button_text_secondary) {
+        const secondaryBtn = heroSection.querySelector('.btn-outline');
+        if (secondaryBtn) {
+          secondaryBtn.textContent = hero.button_text_secondary;
+        }
+      }
+      
+      if (hero.button_link_secondary) {
+        const secondaryBtn = heroSection.querySelector('.btn-outline');
+        if (secondaryBtn) {
+          secondaryBtn.href = hero.button_link_secondary;
+        }
+      }
       
       if (hero.image) {
         const img = heroSection.querySelector('.hero-bg img');
