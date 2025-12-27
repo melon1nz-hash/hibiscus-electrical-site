@@ -2,8 +2,36 @@
   "hero": {
     "subheadline": "Professional, licensed electricians serving residential and commercial clients from Whangaparaoa to Orewa. Safety first, quality guaranteed.",
     "headline": "Reliable Electrical Services on the Hibiscus Coast",
-    "button_text": "Get a MEGA Quote",
+    "button_text": "Get a Free Quote",
     "button_link": "",
-    "button_text_secondary": "Our services!!"
-  }
+    "button_text_secondary": "View Services"
+  },
+  "services": [
+    {
+      "title": "Residential Electrical",
+      "description": "Complete home wiring, repairs, and upgrades. From new outlets to full rewires, we keep your home safe and powered."
+    },
+    {
+      "title": "Commercial Electrical",
+      "description": "Reliable power solutions for businesses. Shop fit-outs, data cabling, and maintenance contracts available."
+    },
+    {
+      "title": "New Builds & Renovations",
+      "description": "Expert planning and installation for your new dream home or renovation project. We work seamlessly with your builders."
+    },
+    {
+      "title": "Lighting & LED Upgrades",
+      "description": "Energy-efficient lighting designs. Transform your space with modern LED downlights, pendants, and outdoor lighting."
+    },
+    {
+      "title": "Switchboards & Safety",
+      "description": "Upgrade old fuse boards to modern RCD-protected switchboards. Comprehensive safety checks and compliance certification."
+    },
+    {
+      "title": "Fault Finding & Repairs",
+      "description": "Experiencing power outages or flickering lights? Our diagnostic experts find and fix electrical faults fast."
+    }
+  ],
+  "portfolio": [],
+  "testimonials": []
 }
